@@ -1,3 +1,4 @@
+
 'use client';
 
 import React, { useState, useEffect } from 'react';
@@ -373,3 +374,5 @@ export default function WatchPage() {
     </div>
   );
 }
+
+export const runtime = 'edge';
