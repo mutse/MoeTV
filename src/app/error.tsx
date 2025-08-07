@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 
-export default function ErrorPage({
+export default function Error({
     error,
     reset
 }: {
@@ -28,5 +28,3 @@ export default function ErrorPage({
         </div>
     );
 }
-
-export const runtime = "edge";
