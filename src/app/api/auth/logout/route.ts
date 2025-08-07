@@ -15,4 +15,4 @@ export async function POST() {
   return response;
 }
 
-export const runtime = 'nodejs';
+export const runtime = 'edge';

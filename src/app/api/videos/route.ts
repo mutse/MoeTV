@@ -97,4 +97,4 @@ export async function POST(request: NextRequest) {
 }
 
 // Node.js runtime for local development
-export const runtime = 'nodejs';
+export const runtime = 'edge';
