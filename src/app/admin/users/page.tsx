@@ -334,3 +334,5 @@ export default function AdminUsers() {
     </AdminLayout>
   );
 }
+
+export const runtime = "edge";

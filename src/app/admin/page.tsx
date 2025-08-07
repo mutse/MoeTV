@@ -134,3 +134,5 @@ export default function AdminDashboard() {
     </AdminLayout>
   );
 }
+
+export const runtime = "edge";

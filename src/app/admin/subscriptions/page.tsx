@@ -346,3 +346,5 @@ export default function AdminSubscriptions() {
     </AdminLayout>
   );
 }
+
+export const runtime = "edge";
