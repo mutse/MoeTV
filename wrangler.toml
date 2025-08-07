@@ -1,0 +1,8 @@
+name = "moetv"
+pages_build_output_dir = ".next"
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "moetv"
+database_id = "6be2000f-f70e-4db2-9c2a-6f67e4d48f39"
+migrations_dir = "drizzle"
