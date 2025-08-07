@@ -11,9 +11,9 @@
     "db:generate": "drizzle-kit generate",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "pages:build": "@cloudflare/next-on-pages",
+    "pages:build": "npx @cloudflare/next-on-pages",
     "pages:deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static",
-    "pages:watch": "@cloudflare/next-on-pages --watch",
+    "pages:watch": "npx @cloudflare/next-on-pages --watch",
     "pages:dev": "npx @cloudflare/next-on-pages --port 3000 --watch"
   },
   "dependencies": {
